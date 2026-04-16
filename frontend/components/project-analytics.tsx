@@ -99,7 +99,7 @@ export default function ProjectAnalytics({ projectId }: ProjectAnalyticsProps) {
         setLoading(true);
         setError(null);
 
-        const apiUrl = `https://collabsphere-d7g1.onrender.com/project/analytics?project_id=${projectId}`;
+        const apiUrl = `https://collab-eijr.onrender.com/project/analytics?project_id=${projectId}`;
         const response = await fetch(apiUrl, {
           method: "GET",
           credentials: "include",
