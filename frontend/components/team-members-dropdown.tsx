@@ -35,7 +35,7 @@ const TeamMemberDropdown: React.FC<TeamMemberDropdownProps> = ({
         setError(null);
         
         // Always call the eligible_users API endpoint, regardless of purpose
-        const apiUrl = `https://collabsphere-d7g1.onrender.com/project/add_mod/eligible_users?project_id=${projectId}`;
+        const apiUrl = `https://collab-eijr.onrender.com/project/add_mod/eligible_users?project_id=${projectId}`;
         
         const response = await fetch(apiUrl, {
           method: "GET",
