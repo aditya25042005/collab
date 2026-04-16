@@ -1,5 +1,5 @@
 // Configuration utility for API URLs
-export const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'https://collabsphere-d7g1.onrender.com';
+export const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'https://collab-eijr.onrender.com';
 
 export const API_ENDPOINTS = {
   VERIFY_GOOGLE: `${API_BASE_URL}/verify/google`,
