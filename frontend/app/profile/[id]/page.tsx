@@ -130,7 +130,7 @@ const id = 'sanjay23bcy51';
     const fetchCurrentProjects = async () => {
       try {
         const response = await fetch(
-          "https://collabsphere-d7g1.onrender.com/list/current/projects",
+          "https://collab-eijr.onrender.com/list/current/projects",
           {
             method: "POST",
             credentials: "include", // Include cookies if needed
